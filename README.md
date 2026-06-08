@@ -23,7 +23,9 @@ Folders are numbered to match the J&M chapters. Each chapter folder contains one
 | `07_neural_networks/` | Ch. 7 | Neural Networks |
 | `09_transformers/` | Ch. 9 | Transformers · Attention |
 | `10_large_language_models/` | Ch. 10 | Pretraining vs. Fine-tuning · Decoding & Sampling · Context Window · Scaling Laws |
+| `11_masked_language_models/` | Ch. 11 | Masked Language Models (BERT) |
 | `12_alignment_prompting/` | Ch. 12 | Prompting & In-Context Learning · RLHF & Alignment · Bias & Fairness |
+| `13_machine_translation/` | Ch. 13 | Machine Translation & BLEU |
 | `14_ir_qa_rag/` | Ch. 14 | Information Retrieval · RAG Pipeline · Hallucination & Validation |
 | `capstone_text_annotation/` | Capstone | LLMs for Text Annotation & Classification |
 
