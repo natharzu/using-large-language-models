@@ -10,6 +10,24 @@ Use an LLM as an annotator for a political-science labeling task, then evaluate 
 
 A few hundred texts with a human-labeled gold subset (stance, topic, frame, sentiment, etc.) in `data/`.
 
+## Setup: LLM access
+
+This capstone calls a hosted LLM for annotation. Copy the example env file and add your key:
+
+```bash
+cp .env.example .env
+# edit .env and set OPENAI_API_KEY=sk-...
+```
+
+`openai` and `python-dotenv` are pinned in `requirements.txt`. Load the key at the top of your script:
+
+```python
+from dotenv import load_dotenv
+load_dotenv()  # reads .env; never hard-code keys
+```
+
+**Prefer a local model?** Swap `llm_annotate()` for a `transformers` pipeline — no key needed, but expect lower annotation quality. Document whichever path you choose in your report.
+
 ## Tasks
 
 1. Define a clear codebook (label definitions + examples) — this is the prompt's backbone.
