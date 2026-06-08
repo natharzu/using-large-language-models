@@ -1,27 +1,34 @@
+# Pinned for reproducibility. Tested on Python 3.11.
+# Bump deliberately, not accidentally.
+
 # Core scientific stack
-numpy
-pandas
-scikit-learn
-matplotlib
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+matplotlib==3.9.2
 
 # Deep learning / LLMs
-torch
-transformers
-datasets
-peft
-sentence-transformers
+torch==2.4.1
+transformers==4.44.2
+datasets==2.21.0
+peft==0.12.0
+sentence-transformers==3.0.1
+
+# Hosted LLM access (capstone annotation)
+openai==1.51.0
+python-dotenv==1.0.1
 
 # Retrieval
-faiss-cpu
-rank_bm25
+faiss-cpu==1.8.0.post1
+rank_bm25==0.2.2
 
 # Tokenization & classic NLP
-tiktoken
-nltk
-gensim
+tiktoken==0.7.0
+nltk==3.9.1
+gensim==4.3.3
 
 # Visualization of attention
-bertviz
+bertviz==1.4.0
 
 # Notebooks (optional)
-jupyter
+jupyter==1.1.1

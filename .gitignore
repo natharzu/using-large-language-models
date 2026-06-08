@@ -10,9 +10,11 @@ venv/
 .env
 *.key
 
-# Data (keep the folder + its README, ignore everything else)
+# Data (keep the folder + its README and the tiny committed sample, ignore everything else)
 data/*
 !data/README.md
+!data/sample/
+!data/sample/**
 
 # Model caches / artifacts
 *.pt
