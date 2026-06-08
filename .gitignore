@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.key
+
+# Data (keep the folder + its README, ignore everything else)
+data/*
+!data/README.md
+
+# Model caches / artifacts
+*.pt
+*.bin
+*.safetensors
+models/

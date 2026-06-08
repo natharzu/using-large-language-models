@@ -1,0 +1,27 @@
+# Core scientific stack
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# Deep learning / LLMs
+torch
+transformers
+datasets
+peft
+sentence-transformers
+
+# Retrieval
+faiss-cpu
+rank_bm25
+
+# Tokenization & classic NLP
+tiktoken
+nltk
+gensim
+
+# Visualization of attention
+bertviz
+
+# Notebooks (optional)
+jupyter
