@@ -1,12 +1,12 @@
 # Using Large Language Models in Political Science
 
-Hands-on **sandbox exercises** for learning Large Language Models (LLMs), organized by the chapters of Jurafsky & Martin's *Speech and Language Processing* (3rd ed.). Each exercise pairs a short theory recap with a runnable coding task, oriented toward **political-science text** (speeches, parliamentary debates, reviews, news, social media).
+Hands-on **sandbox exercises** for learning Large Language Models (LLMs), organized by the chapters of [Jurafsky & Martin's *Speech and Language Processing* (3rd ed.)](https://web.stanford.edu/~jurafsky/slp3/) — the draft is free and openly published online. Each exercise pairs a short theory recap with a runnable coding task, oriented toward **political-science text** (speeches, parliamentary debates, reviews, news, social media).
 
 This repo is the practice companion to the LLM concept notes in Notion: every concept page there has a matching exercise here.
 
 ## How this repo is organized
 
-Folders are numbered to match the J&M chapters (3rd ed., latest draft). Each chapter folder contains one subfolder per exercise, and each exercise has:
+Folders are numbered to match the J&M chapters ([3rd ed., latest draft](https://web.stanford.edu/~jurafsky/slp3/)). Each chapter folder contains one subfolder per exercise, and each exercise has:
 
 - `README.md` — the task spec (objective, dataset, tasks, success criteria, reference)
 - `*_sandbox.py` — a starter script with `TODO`s to fill in
@@ -50,6 +50,10 @@ Datasets go in `data/` (git-ignored except its README). A tiny runnable sample l
 2. Open the exercise `README.md` here.
 3. Fill in the `TODO`s in the `*_sandbox.py` stub.
 4. Commit your solution next to the stub (e.g. `tokens_solution.py`).
+
+## Reference
+
+- Daniel Jurafsky & James H. Martin, *Speech and Language Processing* (3rd ed. draft) — free online: https://web.stanford.edu/~jurafsky/slp3/
 
 ## License
 
